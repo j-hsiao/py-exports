@@ -7,6 +7,7 @@ setup(
     author='Jason Hsiao',
     author_email='oaishnosaj@gmail.com',
     description='register items to __all__',
+    packages=['jhsiao'],
     py_modules=['jhsiao.exports'],
     install_requires=[
         'jhsiao-scope @ git+https://github.com/j-hsiao/py-scope.git']
